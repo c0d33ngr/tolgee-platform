@@ -1,0 +1,10 @@
+{
+  "name": "Dev Container for Tolgee Platform",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {},
+  },
+  "containerEnv": {
+    "DISABLE_JAVA_BUILD": "true"
+  }
+}
